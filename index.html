@@ -5,13 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
-    <title>Shopping list | NS</title>
+    <title>Shopping list | CAHeaf</title>
 </head>
 
 <body>
     <div id="title">
-        <h1>NS Shopping list</h1>
-        <h2>Enjoy.</h2>
+        <h1>Shopping list</h1>
+        <h2>Currently <a id="count">3</a> items on list.</h2>
     </div>
+    <input type="text" class="item-enter">
+    <button class="item-confirm"> Add Item </button>
+    <button class="remove-item"> Remove Last item </button>
+    <div class ="list">
+        <p id="to-buy">To buy:</p>
+        <hr class="line">
+        <ul id="items">
+            <li>Bread</li>
+            <li>Milk</li>
+            <li>Cheese</li>
+        </ul>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>

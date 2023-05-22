@@ -1,8 +1,57 @@
 body {
-    background-color: #333333;
+    background-color: #daffcf;
+    text-align: left;
 }
 
 #title {
-    text-align: center;
+    text-align: left;
     line-height: 10px;
+}
+#to-buy{
+    font-size: 32px;
+    padding: 0;
+}
+.list {
+    width: 380px;
+    height: 600px;
+    overflow: hidden;
+    text-align: left;
+    margin: 0 auto;
+    margin: 20 0 0 450px;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 15px ;
+    border-style: outset;
+}
+
+.remove-item{
+    text-align: center;
+    border-radius: 15px;
+    background-color: #000000;
+    color: #ffffff;    
+}
+
+.remove-item:hover{
+    background-color:#ffffff;
+    color: #000000;
+}
+
+.line{
+    background-color: #00ccff;
+}
+
+.item-enter{
+    background-color: #eeeeee;
+    color: #000000;
+}
+
+.item-confirm{
+    border-radius: 15px;
+    background-color: #000000;
+    color: #ffffff;    
+}
+
+.item-confirm:hover{
+    background-color:#ffffff;
+    color: #000000;
 }

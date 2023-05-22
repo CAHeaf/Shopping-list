@@ -1,2 +1,2 @@
 # Shopping list
- A web-based shopping list maker
+ A shopping list maker, does not remember list between refreshes haha
